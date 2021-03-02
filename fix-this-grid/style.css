@@ -33,3 +33,7 @@ body {
 	Write your solution here!
    ========================== */
 
+body {
+    flex-flow: row wrap;
+    justify-content: center;
+}
