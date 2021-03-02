@@ -45,4 +45,33 @@ body {
 	Write your solution here!
    ========================== */
 
-   
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-right: 0.25em;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 1000px) {
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .links {
+        flex-direction: row;
+        margin-right: 3em;
+        max-width: 50%;
+    }
+}
+
